@@ -23,6 +23,4 @@ const displayUsers = users => {
         usersContainer.appendChild(userDiv);
     }
 }
-// <p>User timezone: ${user.location[3].timezone}</p>
-//<p>User coordinates: ${user.location[1].coordinates}</p>
 loadUsers();
